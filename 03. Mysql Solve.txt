@@ -1,0 +1,4 @@
+select a.user_id, a.first_name, AVG(b.correct), MAX(time_taken)
+from user a
+LEFT JOIN test_result b ON a.user_id = b.user_id
+GROUP BY a.user_id
