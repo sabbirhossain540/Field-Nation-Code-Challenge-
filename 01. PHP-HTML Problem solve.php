@@ -21,6 +21,7 @@ class InheritArrayObject extends ArrayObject {
     } 
 }
 
+
 $obj = new InheritArrayObject();    
 $obj->Name = 'Sabbir Hossain'; 
 $obj->Profession = 'Software Engineer'; 
